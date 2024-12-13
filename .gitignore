@@ -1,0 +1,53 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# 스프링 레거시 관련
+# .classpath, .project, .settings (Eclipse 관련)
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA 관련
+.idea/
+*.iml
+
+# Maven 빌드 결과물
+target/
+
+# Gradle 빌드 결과물
+.gradle/
+build/
+
+# 로그 파일
+*.log
+
+# 실행된 Java class 파일들
+*.class
+
+# .env 파일들 (리액트와 관련된 환경 파일)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# 운영체제 파일
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# IDE 파일들
+/.idea/
+/.vscode/
+
+# npm, yarn 로그 파일
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
